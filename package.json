@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/sanfrecce-osaka/zenn-connect/issues"
   },
-  "homepage": "https://github.com/sanfrecce-osaka/zenn-connect#readme"
+  "homepage": "https://github.com/sanfrecce-osaka/zenn-connect#readme",
+  "dependencies": {
+    "zenn-cli": "^0.1.115"
+  }
 }
