@@ -1,9 +1,18 @@
 title: "Rails アプリケーション型付けハンドブック(rbs/steep)"
-summary: ""
-topics: []
-published: false
+summary: "Rails アプリケーションに型を導入するためのハンドブックです。"
+topics: ["Ruby", "Rails"]
+published: true
 price: 0 # 有料の場合200〜5000
+toc_depth: 3
 # 本に含めるチャプターを順番に並べましょう
 chapters:
-  - example1
-  - example2
+  - preface
+  - introduce-type-signature
+  - introduce-type-signature-for-defined-method-by-dsl
+  - introduce-type-signature-for-handwritten-method
+  - introduce-steep
+  - operate-rbs-and-steep
+  - contributing
+  - learning
+  - glossary
+  - changelog
