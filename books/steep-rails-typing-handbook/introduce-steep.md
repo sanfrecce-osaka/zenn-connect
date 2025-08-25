@@ -158,7 +158,7 @@ end
 
 参考: [gem_rbs_collection へのコントリビュートから始める Ruby の型の世界](https://speakerdeck.com/sanfrecce_osaka/contributing-gem-rbs-collection)
 
-## 5.3.2. ケース3: rbs-trace が出力した型に対する対応
+## 5.3.2. ケース2: rbs-trace が出力した型に対する対応
 
 ### 5.3.2.1. プロダクションコードには存在しない型の修正
 
@@ -227,7 +227,7 @@ sig/generated/app/models/user.rbs:29:18: [error] Type `::CSV::Table` is generic 
 - `CSV::Table` => `CSV::Table[untyped]`
 - `ActiveSupport::HashWithIndifferentAccess` => `ActiveSupport::HashWithIndifferentAccess[untyped, untyped]`
 
-## 5.3.3. ケース2: 重複した型定義の削除
+## 5.3.3. ケース3: 重複した型定義の削除
 
 **Diagnostic ID: RBS::DuplicateDefinition**
 
