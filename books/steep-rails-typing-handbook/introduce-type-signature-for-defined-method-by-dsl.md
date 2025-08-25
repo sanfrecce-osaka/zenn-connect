@@ -101,7 +101,7 @@ orthoses の rake タスクを読む際に覚えておくとよいのは以下�
 それでは以下のコマンドを実行してください。
 
 ```zsh
-$ bundle exec rails rails orthoses:rails
+$ bundle exec rails orthoses:rails
 ```
 
 実行が完了すると `Orthoses::CreateFileByName` の `to` で指定した path の配下に型定義が生成されます。
