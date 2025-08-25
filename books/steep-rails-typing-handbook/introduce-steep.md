@@ -166,7 +166,7 @@ end
 
 ```zsh
 sig/generated/app/models/user.rbs:29:18: [error] Cannot find type `RSpec::Mocks::InstanceVerifyingDouble`
-│ Diagnostic ID: RSpec::Mocks::InstanceVerifyingDouble
+│ Diagnostic ID: RBS::UnknownTypeName
 │
 └   def some_method: (RSpec::Mocks::InstanceVerifyingDouble) -> untyped
                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
