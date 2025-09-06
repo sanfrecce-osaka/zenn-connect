@@ -2,6 +2,10 @@
 title: "CHANGELOG"
 ---
 
+# 0.1.2(2025-08-27)
+
+- [fix: 「01 はじめに」のリンク切れを修正](https://github.com/sanfrecce-osaka/zenn-connect/commit/d38815cdabf95182d37de7d26863e81875e66351) by [@yasulab](https://github.com/yasulab)
+
 # 0.1.1(2025-08-26)
 
 - [fix: 「03 自前で定義したメソッドの型シグネチャの導入」の typo 修正](https://github.com/sanfrecce-osaka/zenn-connect/commit/d3828c1627a130b06eaa7d868c07b6f14efce904)
